@@ -1,0 +1,28 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1747195512
+goalkeeper_scoop.tscn::PackedScene::7267127944037990141::1747195512::0::1::::<><>::uid://c7v4o5rkyrom0::::res://models/mujer/Goalkeeper Scoop.fbx<>uid://dt5ro071h1sn3::::res://jump.res
+icon.svg::CompressedTexture2D::973667622391257119::1747190734::1747190750::1::::<><>::
+jump.res::Animation::8555839966524623646::1747194807::0::1::::<><>::
+node_3d.tscn::PackedScene::7696475284699961585::1747195512::0::1::::<><>::uid://c7v4o5rkyrom0::::res://models/mujer/Goalkeeper Scoop.fbx<>uid://cvf35fwo354l2::::res://models/mesa/mesa_con_mantel.glb<>uid://c0e4d6oyiqh5y::::res://models/Cocina/cocina_taller.glb
+::res://addons/::1747194788
+::res://addons/mixamo_animation_retargeter/::1747194791
+icon.png::CompressedTexture2D::4614194341955542939::1729461353::1747194791::1::::<><>::
+mixamo_animation_retargeter.gd::GDScript::-1::1729461353::0::1::::<>EditorPlugin<>::
+mixamo_bone_map.tres::BoneMap::4240935064570849907::1729461353::0::1::::<><>::
+plugin.cfg::TextFile::-1::1729461353::0::1::::<><>::
+README.md::TextFile::-1::1729461353::0::1::::<><>::
+::res://models/::1747196420
+::res://models/cocina/::1747196492
+bar_monserrat.glb::PackedScene::5581316991882812914::1747196492::1747196496::1::::<><>::
+::res://models/mesa/::1747195024
+mesa_con_mantel.glb::PackedScene::6258882919446963189::1747195018::1747195023::1::::<><>::uid://d1x4ln1hq5s1l::::res://models/mesa/mesa_con_mantel_2.jpg<>uid://bls2mpopdqa2u::::res://models/mesa/mesa_con_mantel_3.png<>uid://cro4ji3qrnm4j::::res://models/mesa/mesa_con_mantel_0.jpg<>uid://s461ro1oorhc::::res://models/mesa/mesa_con_mantel_1.png
+mesa_con_mantel_0.jpg::CompressedTexture2D::5996730326916496139::1747195018::1747195024::1::::<><>::
+mesa_con_mantel_1.png::CompressedTexture2D::1325195713494418244::1747195019::1747195024::1::::<><>::
+mesa_con_mantel_2.jpg::CompressedTexture2D::9033433833843798167::1747195020::1747195024::1::::<><>::
+mesa_con_mantel_3.png::CompressedTexture2D::3197318361779770682::1747195021::1747195024::1::::<><>::
+::res://models/mujer/::1747194807
+Goalkeeper Scoop.fbx::PackedScene::7064023692992680177::1747192415::1747193665::1::::<><>::uid://colvnyp0ugesg::::res://models/mujer/Goalkeeper Scoop_0.png<>uid://ct04tosoo0mrj::::res://models/mujer/Goalkeeper Scoop_2.png
+Goalkeeper Scoop_0.png::CompressedTexture2D::5779492890677495498::1747192415::1747192419::1::::<><>::
+Goalkeeper Scoop_1.png::CompressedTexture2D::1329581822981214029::1747192417::1747192417::1::::<><>::
+Goalkeeper Scoop_2.png::CompressedTexture2D::6159834327023915491::1747192418::1747192419::1::::<><>::
+Jump.fbx::PackedScene::8866940040732431527::1747192892::1747194807::1::::<><>::uid://dt5ro071h1sn3::::res://jump.res

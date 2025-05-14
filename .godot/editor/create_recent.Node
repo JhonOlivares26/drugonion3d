@@ -1,0 +1,8 @@
+CollisionShape3D
+DirectionalLight3D
+OmniLight3D
+WorldEnvironment
+Camera3D
+AnimationPlayer
+MeshInstance3D
+StaticBody3D
