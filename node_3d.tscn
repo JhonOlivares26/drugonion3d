@@ -1,0 +1,56 @@
+[gd_scene load_steps=8 format=3 uid="uid://dhwh286wp5u3j"]
+
+[ext_resource type="PackedScene" uid="uid://dbsishbg0wpll" path="res://goalkeeper_scoop.tscn" id="1_ow3yb"]
+[ext_resource type="PackedScene" uid="uid://cvf35fwo354l2" path="res://models/mesa/mesa_con_mantel.glb" id="2_1m6yb"]
+[ext_resource type="Script" path="res://goalkeeper_scoop.gd" id="2_bkol8"]
+[ext_resource type="PackedScene" uid="uid://d3xxv4p2qk51v" path="res://sketchfab_scene.tscn" id="3_4amhh"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_8tmds"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_fcoh0"]
+
+[sub_resource type="Environment" id="Environment_0qdfs"]
+background_energy_multiplier = 0.88
+ambient_light_color = Color(1, 1, 1, 1)
+ambient_light_energy = 9.42
+reflected_light_source = 2
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Goalkeeper Scoop" parent="." instance=ExtResource("1_ow3yb")]
+script = ExtResource("2_bkol8")
+
+[node name="piso" type="StaticBody3D" parent="."]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="piso"]
+transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, -0.533933, 0, 0)
+gi_mode = 0
+mesh = SubResource("PlaneMesh_8tmds")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="piso/MeshInstance3D"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, -1.01034, 0)
+shape = SubResource("BoxShape3D_fcoh0")
+
+[node name="Sketchfab_Scene" parent="." instance=ExtResource("2_1m6yb")]
+transform = Transform3D(1.1, 0, 0, 0, 1.1, 0, 0, 0, 1.1, 1.62162, 0.36597, 1.95453)
+
+[node name="Sketchfab_Scene2" parent="." instance=ExtResource("3_4amhh")]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -4.4586, 1.36592, 0)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.765011, 0.644017, 0, -0.644017, 0.765011, 2.06181, 4.67886, 13.7364)
+current = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_0qdfs")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.72341, 3.86847, -1.63615)
+visible = false
+light_energy = 4.404
+light_indirect_energy = 0.0
+light_volumetric_fog_energy = 8.035
+light_size = 0.794
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.593183, 0.300812, -0.746757, -0.011549, 0.930655, 0.365716, 0.804985, -0.208313, 0.555523, 8.87471, 11.987, 1.40033)

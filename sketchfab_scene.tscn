@@ -1,0 +1,371 @@
+[gd_scene load_steps=2 format=3 uid="uid://d3xxv4p2qk51v"]
+
+[ext_resource type="PackedScene" uid="uid://clrvqft0dsx43" path="res://models/cocina/bar_monserrat.glb" id="1_xoavv"]
+
+[node name="Sketchfab_Scene" instance=ExtResource("1_xoavv")]
+
+[node name="Sketchfab_model" parent="." index="0"]
+transform = Transform3D(99.9363, 0, 0, 0, 2.21903e-14, 99.9363, 0, -99.9363, 2.21903e-14, 0, -0.710773, 0)
+
+[node name="Group2" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model" index="1"]
+visible = false
+
+[node name="Mesh133_Plastic_Simple_GrainS_Black_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group51/Mesh133" index="0"]
+visible = false
+
+[node name="Mesh133_FrontColor_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group51/Mesh133" index="1"]
+visible = false
+
+[node name="Mesh133_LED_5500k_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group51/Mesh133" index="2"]
+visible = false
+
+[node name="Group54" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model" index="11"]
+visible = false
+
+[node name="Mesh137_Plastic_Simple_GrainS_Black_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group55/Mesh137" index="0"]
+visible = false
+
+[node name="Mesh138_Plastic_Simple_GrainS_Black_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group56/Group57/Mesh138" index="0"]
+visible = false
+
+[node name="costado_ilsa1" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group56" index="1"]
+visible = false
+
+[node name="costado_ilsa2" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group56" index="2"]
+visible = false
+
+[node name="costado_ilsa3" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group56" index="3"]
+visible = false
+
+[node name="Mesh142" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group56/costado_ilsa4" index="0"]
+visible = false
+
+[node name="Mesh142_RH_bellota_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group56/costado_ilsa4/Mesh142" index="0"]
+visible = false
+
+[node name="Mesh143_RH_bellota_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group56/base_isla1/Mesh143" index="0"]
+visible = false
+
+[node name="Mesh144_RH_bellota_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group56/base_isla2/Mesh144" index="0"]
+visible = false
+
+[node name="base_isla3" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group56" index="7"]
+visible = false
+
+[node name="Mesh145" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group56/base_isla3" index="0"]
+visible = false
+
+[node name="Mesh146_RH_bellota_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group56/base_isla4/Mesh146" index="0"]
+visible = false
+
+[node name="Group58" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model" index="14"]
+visible = false
+
+[node name="Mesh234_Plastic_Simple_GrainS_Black_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group127/Mesh234" index="0"]
+visible = false
+
+[node name="Mesh234_LED_5500k_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group127/Mesh234" index="2"]
+visible = false
+
+[node name="Group128" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model" index="33"]
+visible = false
+
+[node name="Mesh236_Plastic_Simple_GrainS_Black_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group129/Group130/Mesh236" index="0"]
+visible = false
+
+[node name="Mesh237_Plastic_Simple_GrainS_Black_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group129/Group131/Mesh237" index="0"]
+visible = false
+
+[node name="Group132" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group129" index="2"]
+visible = false
+
+[node name="Mesh238" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group129/Group132" index="0"]
+visible = false
+
+[node name="Group133" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model" index="35"]
+visible = false
+
+[node name="Mesh240_Plastic_Simple_GrainS_Black_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group133/Group135/Mesh240" index="0"]
+visible = false
+
+[node name="Group137" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model" index="36"]
+visible = false
+
+[node name="Mesh243_Plastic_Simple_GrainS_Black_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group138/Mesh243" index="0"]
+visible = false
+
+[node name="Mesh243_LED_5500k_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group138/Mesh243" index="1"]
+visible = false
+
+[node name="Group139" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model" index="38"]
+visible = false
+
+[node name="Mesh244" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group139" index="0"]
+visible = false
+
+[node name="Mesh244_Plastic_Simple_GrainS_Black_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group139/Mesh244" index="0"]
+visible = false
+
+[node name="Group140" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model" index="39"]
+visible = false
+
+[node name="Mesh245" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group140" index="0"]
+visible = false
+
+[node name="Mesh245_Plastic_Simple_GrainS_Black_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group140/Mesh245" index="0"]
+visible = false
+
+[node name="Mesh245_LED_5500k_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group140/Mesh245" index="1"]
+visible = false
+
+[node name="Mesh246" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Group146" index="0"]
+visible = false
+
+[node name="Mesh246_plastico_negro_mate_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Group146/Mesh246" index="0"]
+visible = false
+
+[node name="Mesh246_vidrio_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Group146/Mesh246" index="1"]
+visible = false
+
+[node name="Mesh246_blanco_muebles_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Group146/Mesh246" index="2"]
+visible = false
+
+[node name="Group147" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145" index="1"]
+visible = false
+
+[node name="Grupo_52_1" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145" index="2"]
+visible = false
+
+[node name="Group148" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Grupo_52_1" index="0"]
+visible = false
+
+[node name="Mesh251" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Grupo_52_1/Group148" index="0"]
+visible = false
+
+[node name="Mesh251_plastico_negro_mate_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Grupo_52_1/Group148/Mesh251" index="0"]
+visible = false
+
+[node name="Group149" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Grupo_52_1" index="1"]
+visible = false
+
+[node name="Group150" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Grupo_52_1/Group149" index="0"]
+visible = false
+
+[node name="Mesh252" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Grupo_52_1/Group149/Group150" index="0"]
+visible = false
+
+[node name="Mesh252_negro_brillante_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Grupo_52_1/Group149/Group150/Mesh252" index="0"]
+visible = false
+
+[node name="Mesh259_plastico_negro_mate_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Grupo_52_2/Group154/Mesh259" index="0"]
+visible = false
+
+[node name="Group155" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Grupo_52_2" index="1"]
+visible = false
+
+[node name="Mesh260" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Grupo_52_2/Group155/Group156" index="0"]
+visible = false
+
+[node name="Mesh260_negro_brillante_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Grupo_52_2/Group155/Group156/Mesh260" index="0"]
+visible = false
+
+[node name="Group158" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Grupo_52_2" index="2"]
+visible = false
+
+[node name="Mesh262_negro_brillante_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Grupo_52_2/Group158/Group159/Mesh262" index="0"]
+visible = false
+
+[node name="Componente_15_5" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Grupo_52_2/Group158" index="1"]
+visible = false
+
+[node name="Componente_15_6" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Grupo_52_2/Group158" index="2"]
+visible = false
+
+[node name="Componente_15_7" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Grupo_52_2/Group158" index="3"]
+visible = false
+
+[node name="Componente_15_8" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Grupo_52_2/Group158" index="4"]
+visible = false
+
+[node name="Grupo_51_1" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145" index="4"]
+visible = false
+
+[node name="Mesh267" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Grupo_51_1/Group160" index="0"]
+visible = false
+
+[node name="Mesh268_negro_brillante_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Grupo_51_1/Group161/Group162/Mesh268" index="0"]
+visible = false
+
+[node name="Group163" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Grupo_51_1/Group161" index="1"]
+visible = false
+
+[node name="Group164" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Grupo_51_1" index="2"]
+visible = false
+
+[node name="Grupo_52_3" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145" index="5"]
+visible = false
+
+[node name="Mesh276" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Grupo_52_3/Group167/Group168" index="0"]
+visible = false
+
+[node name="Mesh276_negro_brillante_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Grupo_52_3/Group167/Group168/Mesh276" index="0"]
+visible = false
+
+[node name="Group169" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Grupo_52_3/Group167" index="1"]
+visible = false
+
+[node name="Mesh277" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Grupo_52_3/Group167/Group169" index="0"]
+visible = false
+
+[node name="Mesh277_aluminio_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group144/Sin_t_tulo1/Group145/Grupo_52_3/Group167/Group169/Mesh277" index="0"]
+visible = false
+
+[node name="Group172" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143" index="1"]
+visible = false
+
+[node name="Mesh283" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group172" index="0"]
+visible = false
+
+[node name="Mesh283_Quarzo_gris_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group172/Mesh283" index="0"]
+visible = false
+
+[node name="Mesh284_RH_BLANCO_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group173/Group174/Mesh284" index="0"]
+visible = false
+
+[node name="costado_cocina1" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group173" index="1"]
+visible = false
+
+[node name="Mesh285" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group173/costado_cocina1" index="0"]
+visible = false
+
+[node name="Mesh285_FrontColor_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group173/costado_cocina1/Mesh285" index="0"]
+visible = false
+
+[node name="costado_cocina2" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group173" index="2"]
+visible = false
+
+[node name="Mesh286" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group173/costado_cocina2" index="0"]
+visible = false
+
+[node name="Mesh286_FrontColor_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group173/costado_cocina2/Mesh286" index="0"]
+visible = false
+
+[node name="costado_cocina3" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group173" index="3"]
+visible = false
+
+[node name="Mesh287" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group173/costado_cocina3" index="0"]
+visible = false
+
+[node name="Mesh287_FrontColor_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group173/costado_cocina3/Mesh287" index="0"]
+visible = false
+
+[node name="costado_cocina4" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group173" index="4"]
+visible = false
+
+[node name="Mesh288" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group173/costado_cocina4" index="0"]
+visible = false
+
+[node name="Mesh288_FrontColor_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group173/costado_cocina4/Mesh288" index="0"]
+visible = false
+
+[node name="base_barra1" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group173" index="5"]
+visible = false
+
+[node name="Mesh289" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group173/base_barra1" index="0"]
+visible = false
+
+[node name="Mesh289_RH_BLANCO_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group173/base_barra1/Mesh289" index="0"]
+visible = false
+
+[node name="costado_cocina5" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group173" index="6"]
+visible = false
+
+[node name="Mesh290" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group173/costado_cocina5" index="0"]
+visible = false
+
+[node name="Mesh290_FrontColor_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group173/costado_cocina5/Mesh290" index="0"]
+visible = false
+
+[node name="costado_cocina6" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group173" index="7"]
+visible = false
+
+[node name="Mesh291" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group173/costado_cocina6" index="0"]
+visible = false
+
+[node name="Mesh291_FrontColor_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143/Group173/costado_cocina6/Mesh291" index="0"]
+visible = false
+
+[node name="Group175" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143" index="3"]
+visible = false
+
+[node name="Group176" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group143" index="4"]
+visible = false
+
+[node name="Group177" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142" index="1"]
+visible = false
+
+[node name="tapa_cajon_isla1" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group177" index="0"]
+visible = false
+
+[node name="Mesh294" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group177/tapa_cajon_isla1" index="0"]
+visible = false
+
+[node name="Mesh294_RH_gris_metalizado_arcopa_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/Group141/Group142/Group177/tapa_cajon_isla1/Mesh294" index="0"]
+visible = false
+
+[node name="base_isla5" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model" index="53"]
+visible = false
+
+[node name="costado_ilsa5" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model" index="54"]
+visible = false
+
+[node name="Mesh564" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/costado_ilsa5" index="0"]
+visible = false
+
+[node name="Mesh564_RH_bellota_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/costado_ilsa5/Mesh564" index="0"]
+visible = false
+
+[node name="base_isla6" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model" index="55"]
+visible = false
+
+[node name="Mesh565" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/base_isla6" index="0"]
+visible = false
+
+[node name="Mesh565_RH_bellota_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/base_isla6/Mesh565" index="0"]
+visible = false
+
+[node name="costado_ilsa6" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model" index="56"]
+visible = false
+
+[node name="Mesh570" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/_____Range_hood____vent_hood___extractor_hood___exhaust_hood1/Group238" index="3"]
+visible = false
+
+[node name="Mesh578_RH_BLANCO_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/costado__mueble_aux_5/Mesh578" index="0"]
+visible = false
+
+[node name="Mesh578_RH_gris_metalizado_arcopa_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/costado__mueble_aux_5/Mesh578" index="1"]
+visible = false
+
+[node name="puerta_aux_1" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model" index="66"]
+visible = false
+
+[node name="Mesh579_RH_gris_metalizado_arcopa_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/puerta_aux_1/Mesh579" index="0"]
+visible = false
+
+[node name="puerta_aux_2_1" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model" index="67"]
+visible = false
+
+[node name="Mesh580_RH_gris_metalizado_arcopa_0" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model/puerta_aux_2_1/Mesh580" index="0"]
+visible = false
+
+[node name="puerta_aux_2_2" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model" index="68"]
+visible = false
+
+[node name="puerta_aux_2_3" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model" index="69"]
+visible = false
+
+[node name="puerta_aux_2_4" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model" index="70"]
+visible = false
+
+[node name="Mesh584" parent="Sketchfab_model/7d454b9e9e184646aacda7e692918fda_fbx/RootNode/Model" index="71"]
+visible = false
